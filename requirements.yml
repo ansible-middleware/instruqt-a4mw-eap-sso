@@ -12,5 +12,5 @@ collections:
 #  - name: middleware_automation.jbcs
   - name: https://github.com/guidograzioli/keycloak/raw/instruqt/redhat-jbcs-1.1.1.tar.gz
     type: url
-  - name: https://github.com/guidograzioli/keycloak/raw/instruqt/ansible-posix-1.4.0.tar.gz
+  - name: https://github.com/guidograzioli/keycloak/raw/instruqt/ansible-posix-1.5.2.tar.gz
     type: url
