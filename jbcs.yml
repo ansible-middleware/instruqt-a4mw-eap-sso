@@ -2,10 +2,8 @@
 - name: Playbook for loadbalancer Hosts
   hosts: jbcs
   become: true
-  collections:
-    - middleware_automation.jbcs
   roles:
-    - middleware_automation.jbcs.jbcs
+    - redhat.jbcs.jbcs
   pre_tasks:
     - name: Set httpd_can_network_connect flag on and keep it persistent across reboots
       ansible.posix.seboolean:
